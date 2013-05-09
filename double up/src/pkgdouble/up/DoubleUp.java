@@ -15,7 +15,8 @@ public class DoubleUp {
      */
     public static void main(String[] args) {
         System.out.println("Zadejte číslo k zdvojnásobení:");
-int a = sc.nextLine();
+String s = sc.nextLine();
+int a = Integer.parseInt(s);
 a = a * 2;
 System.out.println(a);
     }
